@@ -36,5 +36,10 @@
   "bugs": {
     "url": "https://github.com/pablolizardo/arbolito/issues"
   },
-  "homepage": "https://github.com/pablolizardo/arbolito#readme"
+  "homepage": "https://github.com/pablolizardo/arbolito#readme",
+  "dependencies": {
+    "cli-table3": "^0.6.0",
+    "chalk": "^4.1.0",
+    "progress": "^2.0.3"
+  }
 }
