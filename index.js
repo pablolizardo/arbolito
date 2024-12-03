@@ -29,10 +29,10 @@ chalkPromise.then(chalk => {
                     colWidths: [20, 15, 15, 35, 20], // Ajustar el ancho de las columnas para acomodar la nueva columna
                     style: {
                         head: [],
-                        border: [],
-                        'padding-left': 1,
+                        border: [''],
+                        'padding-left': 2,
                         'padding-right': 1,
-                        compact: false,
+                        compact: true,
                         align: ['left', 'right', 'right', 'left', 'left'] // Alineación de la nueva columna a la izquierda
                     }
                 });
