@@ -38,6 +38,7 @@
   },
   "homepage": "https://github.com/pablolizardo/arbolito#readme",
   "dependencies": {
+    "axios": "^1.7.8",
     "chalk": "^4.1.0",
     "cli-table3": "^0.6.0",
     "progress": "^2.0.3",
