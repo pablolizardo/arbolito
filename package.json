@@ -1,7 +1,40 @@
 {
-  "dependencies": {
-    "chalk": "^5.3.0",
-    "cli-table3": "^0.6.5",
-    "progress": "^2.0.3"
-  }
+  "name": "arbolito",
+  "version": "1.0.0",
+  "description": "Herramienta CLI que muestra los valores de las principales monedas de Argentina en tiempo real.",
+  "main": "index.js",
+  "bin": {
+    "arbolito": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablolizardo/arbolito.git"
+  },
+  "keywords": [
+    "arbolito",
+    "dolar",
+    "blue",
+    "euro",
+    "peso",
+    "pesos",
+    "cripto",
+    "argentina",
+    "moneda",
+    "cambio",
+    "CLI"
+  ],
+  "author": {
+    "name": "Pablo Lizardo",
+    "email": "info@pablolizardo.dev",
+    "url": "https://www.pablolizardo.dev"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablolizardo/arbolito/issues"
+  },
+  "homepage": "https://github.com/pablolizardo/arbolito#readme"
 }

@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const https = require('https');
 const chalkPromise = import('chalk');
 const Table = require('cli-table3');
