@@ -1,9 +1,9 @@
-# Arbolito
+# 🌳 Arbolito
 
 ![NPM version](https://img.shields.io/npm/v/arbolito)
 ![License](https://img.shields.io/npm/l/arbolito)
 
-**Arbolito** es una herramienta de línea de comandos (CLI) diseñada para proporcionar actualizaciones en tiempo real de los valores de las principales monedas en Argentina. Esta aplicación es ideal para economistas, inversores, y cualquier persona interesada en el mercado cambiario argentino.
+**🌳 Arbolito** es una herramienta de línea de comandos (CLI) diseñada para proporcionar actualizaciones en tiempo real de los valores de las principales monedas en Argentina. Esta aplicación es ideal para economistas, inversores, y cualquier persona interesada en el mercado cambiario argentino.
 
 ![Arbolito](https://i.postimg.cc/ncJrxJ6C/Screenshot-2024-12-03-at-12-48-36-PM.png)
 
@@ -12,7 +12,6 @@
 - **Actualización en Tiempo Real**: Arbolito actualiza los valores de las monedas cada minuto, mostrando los últimos datos disponibles.
 - **Soporte para Múltiples Monedas**: La herramienta incluye información sobre el Dólar Oficial, Dólar Blue, Euro, y otras monedas importantes.
 - **Interfaz Amigable**: Los datos se presentan en una tabla clara y colorida en la consola, facilitando la lectura y el seguimiento de las fluctuaciones monetarias.
-- **Personalización**: Los usuarios pueden personalizar ciertos aspectos de la visualización para adaptar la herramienta a sus necesidades específicas.
 
 ## Cómo Funciona
 
