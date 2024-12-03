@@ -5,7 +5,7 @@
 
 **Arbolito** es una herramienta de línea de comandos (CLI) diseñada para proporcionar actualizaciones en tiempo real de los valores de las principales monedas en Argentina. Esta aplicación es ideal para economistas, inversores, y cualquier persona interesada en el mercado cambiario argentino.
 
-<a href='https://postimg.cc/K40x7dc2' target='_blank'><img src='https://i.postimg.cc/K40x7dc2/Screenshot-2024-12-03-at-12-48-36-PM.png' border='0' alt='Screenshot-2024-12-03-at-12-48-36-PM' style="border-radius: 5px;" /></a>
+![Arbolito](https://i.postimg.cc/ncJrxJ6C/Screenshot-2024-12-03-at-12-48-36-PM.png)
 
 ## Características
 
@@ -20,17 +20,17 @@ Arbolito utiliza una serie de llamadas a APIs públicas para obtener los valores
 
 ## Instalación
 
-Para instalar Arbolito, necesitarás tener Node.js instalado en tu máquina. Una vez instalado, puedes ejecutar el siguiente comando en tu terminal:
+Para instalar Arbolito globalmente, necesitarás tener Node.js y npm instalados en tu máquina. Una vez instalados, puedes ejecutar el siguiente comando en tu terminal:
 
 ```bash
-npm install arbolito
+npm install -g arbolito
 ```
 
-Este comando descargará e instalará Arbolito y todas sus dependencias.
+Este comando instalará Arbolito globalmente en tu sistema, permitiéndote ejecutarlo desde cualquier lugar en tu terminal.
 
 ## Uso
 
-Para iniciar Arbolito, simplemente ejecuta el siguiente comando en tu terminal:
+Una vez instalado, puedes iniciar Arbolito simplemente ejecutando el siguiente comando en tu terminal:
 
 ```bash
 arbolito
