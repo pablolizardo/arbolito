@@ -6,6 +6,7 @@ const Table = require('cli-table3');
 const ProgressBar = require('progress');
 const yargs = require('yargs/yargs');
 const { hideBin } = require('yargs/helpers');
+const { getRiesgoPais } = require('./lib');
 
 const argv = yargs(hideBin(process.argv)).argv;
 
@@ -163,6 +164,5 @@ chalkPromise.then(chalk => {
             }
         }, 1000);
     }
-
     fetchAllData();
 });

@@ -21,31 +21,58 @@ Arbolito utiliza una serie de llamadas a APIs públicas para obtener los valores
 
 ## Instalación
 
-Para instalar Arbolito globalmente, necesitarás tener Node.js y npm instalados en tu máquina. Una vez instalados, puedes ejecutar el siguiente comando en tu terminal:
+Para instalar Arbolito, tienes dos opciones:
+
+### Como herramienta global de CLI
 
 ```bash
 npm install -g arbolito
 ```
 
-Este comando instalará Arbolito globalmente en tu sistema, permitiéndote ejecutarlo desde cualquier lugar en tu terminal.
+### Como dependencia en tu proyecto
+
+```bash
+npm install arbolito
+```
 
 ## Uso
 
-Una vez instalado, puedes iniciar Arbolito simplemente ejecutando el siguiente comando en tu terminal:
+### Como CLI
+
+Una vez instalado globalmente, puedes iniciar Arbolito ejecutando:
 
 ```bash
 arbolito
 ```
 
-Para ver los datos en tiempo real con actualizaciones cada 60 segundos, puedes usar las siguientes opciones:
+Para ver los datos en tiempo real con actualizaciones cada 60 segundos:
 
 ```bash
 arbolito -w
 arbolito --watch
-
 ```
 
-Esta opción te mostrará una tabla con las cotizaciones de compra y venta de monedas como el Dólar, Euro, entre otros, actualizadas al momento de la consulta. Cada moneda se acompaña de un emoji de bandera y se muestra el tiempo transcurrido desde la última actualización.
+### Como dependencia
+
+Puedes importar y usar las funciones de Arbolito en tu proyecto:
+
+```javascript
+const { getDolares, getCotizaciones, getRiesgoPais } = require("arbolito");
+
+// Obtener cotizaciones de diferentes tipos de dólar
+const dolares = await getDolares();
+console.log(dolares.blue); // { nombre: 'Dólar Blue', compra: 1000, venta: 1005, fechaActualizacion: '2024-01-01T12:00:00.000Z' }
+
+// Obtener cotizaciones de otras monedas
+const cotizaciones = await getCotizaciones();
+console.log(cotizaciones.EUR); // { nombre: 'Euro', compra: 1100, venta: 1150, fechaActualizacion: '2024-01-01T12:00:00.000Z' }
+
+// Obtener el riesgo país
+const riesgoPais = await getRiesgoPais();
+console.log(riesgoPais); // { valor: 2000, fechaActualizacion: '2024-01-01T12:00:00.000Z' }
+```
+
+Todas las funciones retornan una promesa y manejan sus propios errores. Los tipos de datos están documentados usando JSDoc.
 
 ## Contribuciones
 

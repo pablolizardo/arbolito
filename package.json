@@ -2,9 +2,12 @@
   "name": "arbolito",
   "version": "1.1.4",
   "description": "Herramienta CLI que muestra los valores de las principales monedas de Argentina en tiempo real.",
-  "main": "index.js",
+  "main": "lib.js",
   "bin": {
     "arbolito": "./index.js"
+  },
+  "exports": {
+    ".": "./lib.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -25,7 +28,8 @@
     "argentina",
     "moneda",
     "cambio",
-    "CLI"
+    "CLI",
+    "api"
   ],
   "author": {
     "name": "Pablo Lizardo",
